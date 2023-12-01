@@ -1,0 +1,22 @@
+.colora{
+    height: 0;
+    visibility: hidden;
+}
+.colorb{
+    height: 400px;
+    visibility: visible;
+}
+.same{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    width: 100px;
+    overflow: hidden;
+    transition: 0.5s linear;
+    z-index: -1;
+}
+
+.contain{
+    position: relative;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    margin: 0 auto;
+    width: 200px;
+    background-color: azure;
+    .login__email{
+        background-color: aquamarine;
+        
+    }
+    .login--input{
+        width: 100%;
+        // outline: aqua;
+        color:black;
+        margin-top: 30px;
+    }
+    
+}

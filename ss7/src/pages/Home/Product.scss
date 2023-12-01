@@ -1,0 +1,30 @@
+.product{
+    margin: 5vw;
+    border: 1px solid black;
+    // width: 30vw;
+    .product__img{
+        width: 100%;
+    }
+    .product--img{
+        width: 100%;
+    }
+    .product__info{
+        padding: 1vw;
+        .product--btn{
+            width: 10vw;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(0, 72, 255, 0.534);
+            color: aliceblue;
+            padding: 5px 0;
+            transition: 0.5s;
+        }
+        .product--btn:hover{
+            background-color: rgb(0, 72, 255);
+            font-weight: 600;
+
+        }
+    }
+    
+
+}
